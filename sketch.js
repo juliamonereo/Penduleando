@@ -4,7 +4,7 @@ let silhouette;
 function setup() {
   createCanvas(1280, 800);
   pendulum = new Pendulum(width / 2, 0, 600);
-  silhouette = loadImage("silhouette2.png", img => img.resize(1500, 0)); // Cargar la imagen y redimensionarla
+  silhouette = loadImage("https://cdn.shopify.com/s/files/1/0594/0976/0451/files/silhouette2.png?v=1704235209", img => img.resize(1500, 0)); // Cargar la imagen y redimensionarla
   
   // Establecer velocidad angular constante y eliminar la amortiguación
   pendulum.aVelocity = 0.1; // Velocidad angular constante
